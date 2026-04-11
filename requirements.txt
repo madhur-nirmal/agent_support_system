@@ -1,0 +1,41 @@
+# ------ Core Utilities ------
+requests
+pandas
+numpy
+pyyaml
+python-dotenv
+
+# ------ Email Processing ------
+beautifulsoup4
+lxml
+
+# ------ Database Processing ------
+psycopg2-binary
+sqlalchemy
+
+# ------ NLP / ML Models ------
+transformers
+torch
+spacy
+scikit-learn
+
+# ------ Language Detection / Text ------
+langdetect
+
+# ------ Langchain ------
+langchain
+langchain-core
+langchain-community
+
+# ------ LLM ------
+google-genai
+
+# ------ OCR (Attachments) ------
+pytesseract
+Pillow
+
+# ---------Retry / Robustness-------
+tenacity
+
+# ---------Logging / Observability -------
+loguru
