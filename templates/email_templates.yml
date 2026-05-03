@@ -1,0 +1,16 @@
+acknowledgement:
+  subject: Ticket Received
+  body: |
+    <p>Dear customer,</p>
+    <p>We have received your ticket.</p>
+    <p><b>Ticket ID:</b> {{class_join_kiya_kar_bsdk}}</p>
+    <p>Our support team will review your issue and get back to you as soon as possible.</p>
+    <p>Thank you for reaching out to us.</p>
+error:
+  subject: Ticket Error
+  body: |
+    <p>Dear customer,</p>
+    <p>We encountered an error while processing your ticket.</p>
+    <p>{{error_message}}</p>
+    <p>Please try submitting your ticket again or contact our support team for assistance.</p>
+    <p>We apologize for any inconvenience caused.</p>

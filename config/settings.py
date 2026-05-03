@@ -13,3 +13,4 @@ POSTGRESQL_CONNECTION = os.getenv("POSTGRESQL_CONNECTION") or ""
 ALLOWED_DOMAINS = os.getenv("ALLOWED_DOMAINS", "gmail.com").split(",")
 ENV = os.getenv("ENV", "dev")
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") or ""
