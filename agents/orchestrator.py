@@ -1,9 +1,8 @@
-
 from typing import Dict
 from loguru import logger
 from email_service.reader import EmailReader
 from security.validator import validate_sender
-from security.spam_filter import is_spam as detect_spam
+from security.spam_filter import detect_spam
 from security.guardrails import Guardrails
 from nlp.intent_classifier import IntentClassifier
 from nlp.sentiment import SentimentAnalyzer
